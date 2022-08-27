@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../lib/font/iconfont.css">
+
+    <link rel="stylesheet" href="../css/login.min.css">
+    <link rel="stylesheet" href="../css/deng-zc.min.css">
+    <link rel="stylesheet" href="../css/card.min.css">
+    <link rel="stylesheet" href="../css/ptop.min.css">
+</head>
+
+<body>
+ 
+    
+
+
+    <!-- 公共 -->
+    <div class="headerbox" ></div>
+
+    <div class="b">
+        <div class="e-chong">
+            <div class="e-left">
+                <span><img src="../../dist/img/img/1.jpg" alt=""></span>
+                <div>购物车</div>
+            </div>
+            <div class="e-right">
+                <input type="text">
+                <div>搜索</div>
+            </div>
+            <div class="e-card">
+                <div class="ec-left">
+                    <ul>
+                        <li class="jia"><i class="iconfont icon-gouwuche"></i>E宠购物车 0</li>
+                        <li>我的收藏 ?</li>
+                        <li>我购买过 ?</li>
+                        <li>最近浏览 ?</li>
+                    </ul>
+                </div>
+                <div class="ec-right">
+                    <span>送货至：</span>
+                    <select name="" id="">
+                        <option value="">太原 小店区</option>
+                        <option value="">太原 迎泽区</option>
+                        <option value="">太原 尖草坪区</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="e-two">
+             <div class="dobol">
+                <div>
+                    <input type="checkbox" name="" id="" checked="checked">
+                </div>
+                <div><i class="iconfont icon-paynumber"></i>易宠重庆仓</div>
+                <div>已包邮</div>
+                <div>订单已包邮</div>
+
+            </div>
+
+            <div class="huan">
+                <div>换购</div>
+                <div>已满足199.00元，立享超值低价换购福利> ></div>
+                <div>超值换购>></div>
+            </div> 
+
+        <!-- 模板字符串 -->
+
+            <!-- <div class="page"> 
+              <div class="tu-a">
+                    <input type="checkbox" name="" id="" checked>
+                </div>
+                <div class="tu-w"><img src="../../dist/img/img/2.jpg" alt=""></div>
+                <div class="tu-z">比瑞吉俱乐部 健康膳食配方 成犬粮 10kg</div>
+                <div class="tu-n">
+                    <div class="tn-1">-</div>
+                    <div class="tn-2">1</div>
+                    <div class="tn-3">+</div>
+                </div>
+                <div class="yh">有货</div>
+                <div class="tu-j">￥205.00</div>
+                <div class="tu-d">
+                    <span>[收藏]</span>
+                    <span class="del">[删除]</span>
+                </div>
+            </div> -->
+            
+
+            <div class="money">
+                <input type="checkbox" name="" id="" checked="checked">
+                <div>全选</div>
+                <div>[ 删除选中商品 ]</div>
+                <div>[ 收藏选中商品 ]</div>
+                <div>总价 （不含运费）：</div>
+                <div class="price1">￥205.00</div>
+            </div>
+            <div class="green">去结算(1)</div>
+
+            <div class="buy">
+                <input type="button" value="继续购物">
+            </div>
+        </div>
+    </div>
+    
+<!-- 空购物车显示页面 -->
+    <div class="carr">
+        <div class="center">
+            <div class="s"><i class="iconfont icon-gouwuche-xuanzhong"></i></div>
+            <div class="cc">您购物车空空的，快去选购吧！</div>
+            <div class="bb">
+                <div>一键购买</div>
+                <div>去首页</div>
+            </div>
+        </div>
+
+
+
+    <!-- 公共底 -->
+    <div>
+
+    </div>
+
+
+</div>
+<div class="bottombox">
+</div>
+<script src="../lib/jquery-1.12.4.js"></script>
+<script src="../lib/jquery.cookie.js"></script>
+<script src="../../src/js/cs-in.js"></script>
+<script src="../../src/js/card.js"></script>
+<script>
+    $('.headerbox').load('./ptop1.html .headerbox');
+    $('.bottombox').load('./ptop1.html .bottombox');
+</script>
+</body>
+
+
+
+
+
+
+
+</html>

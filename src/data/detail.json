@@ -1,0 +1,83 @@
+{
+    "dkinds":["狗狗","猫猫"],
+    "dproducts":["狗狗主粮","狗狗清洁","狗狗零食","狗狗玩具","狗狗保健","狗狗护理"],
+    "brand":["全部","其他精选","滋易巅峰Ziwi Peak","脏脏骨DIRTY BONES","怪兽焉","益和Matchwell","茂源","滋易巅峰Ziwi Peak","脏脏骨DIRTY BONES","怪兽焉","益和Matchwell","滋易巅峰Ziwi Peak","脏脏骨DIRTY BONES","怪兽焉","益和Matchwell","滋易巅峰Ziwi Peak","脏脏骨DIRTY BONES","怪兽焉","益和Matchwell","茂源","滋易巅峰Ziwi Peak","脏脏骨DIRTY BONES","怪兽焉","益和Matchwell","滋易巅峰Ziwi Peak","脏脏骨DIRTY BONES","怪兽焉","益和Matchwell"],
+    "dbody":["小型犬","中型犬","大型犬"],
+    "dpro":["洁齿咬胶","真骨","素食磨牙","皮制咬胶"],
+    "list":[
+        {
+            "big_pic":["../img/big-pic1.jpg","../img/big-pic2.jpg","../img/big-pic3.jpg"],
+            "small_pic":["../img/small-pic1.jpg","../img/small-pic2.jpg","../img/small-pic3.jpg"],
+            "good":"茶多酚",
+            "texts":["牛肉味洁牙棒200g","鸡肉味洁牙棒200g","牛奶味洁牙棒200g"],
+            "pre_price":"￥19.00",
+            "price":"9.90",
+            "sales":"1500",
+            "brand":"怪兽焉",
+            "body":"小型犬",
+            "product":"洁齿咬胶"
+            
+        },
+        {
+            "big_pic":["../img/big-pic4.jpg","../img/big-pic6.jpg","../img/big-pic4.jpg"],
+            "small_pic":["../img/small-pic4.jpg","../img/small-pic6.jpg","../img/small-pic4.jpg"],
+            "good":"鹿角磨牙棒",
+            "texts":["大号100g-200g","中号200g-300g","大号300g-400g"],
+            "pre_price":"￥69.00",
+            "price":"51.0",
+            "sales":"100",
+            "brand":"滋易巅峰Ziwi Peak",
+            "body":"小型犬",
+            "product":"真骨"
+        },
+        {
+            "big_pic":["../img/big-pic7.jpg","../img/big-pic8.jpg","../img/big-pic9.jpg"],
+            "small_pic":["../img/small-pic7.png","../img/small-pic9.jpg","../img/small-pic8.jpg"],
+            "good":"皮压骨 狗狗洁齿咬胶",
+            "texts":["3寸","4寸","5寸"],
+            "pre_price":"￥5.00",
+            "price":"4.50",
+            "sales":"3500",
+            "brand":"茂源",
+            "body":"中型犬",
+            "product":"洁齿咬胶"
+        },
+        {
+            "big_pic":["../img/big-pic1.jpg","../img/big-pic2.jpg","../img/big-pic3.jpg"],
+            "small_pic":["../img/small-pic1.jpg","../img/small-pic2.jpg","../img/small-pic3.jpg"],
+            "good":"茶多酚",
+            "texts":["牛肉味洁牙棒200g","鸡肉味洁牙棒200g","牛奶味洁牙棒200g"],
+            "pre_price":"￥19.00",
+            "price":"9.90",
+            "sales":"1000",
+            "brand":"怪兽焉",
+            "body":"小型犬",
+            "product":"洁齿咬胶"
+            
+        },
+        {
+            "big_pic":["../img/big-pic4.jpg","../img/big-pic6.jpg","../img/big-pic4.jpg"],
+            "small_pic":["../img/small-pic4.jpg","../img/small-pic6.jpg","../img/small-pic4.jpg"],
+            "good":"鹿角磨牙棒",
+            "texts":["大号100g-200g","中号200g-300g","大号300g-400g"],
+            "pre_price":"￥69.00",
+            "price":"51.0",
+            "sales":"2000",
+            "brand":"滋易巅峰Ziwi Peak",
+            "body":"中型犬",
+            "product":"真骨"
+        },
+        {
+            "big_pic":["../img/big-pic7.jpg","../img/big-pic8.jpg","../img/big-pic9.jpg"],
+            "small_pic":["../img/small-pic7.png","../img/small-pic9.jpg","../img/small-pic8.jpg"],
+            "good":"皮压骨 狗狗洁齿咬胶",
+            "texts":["3寸","4寸","5寸"],
+            "pre_price":"￥5.00",
+            "price":"4.50",
+            "sales":"1200",
+            "brand":"茂源",
+            "body":"中型犬",
+            "product":"洁齿咬胶"
+        }
+    ]
+}

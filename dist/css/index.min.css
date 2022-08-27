@@ -1,0 +1,618 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+.centerbox {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.lunbo {
+  width: 100%;
+  height: 360px;
+}
+
+.shangpin1 {
+  width: 1200px;
+  height: 628px;
+  position: relative;
+}
+
+.shangpin1_header {
+  height: 69px;
+  width: 1200px;
+  border-bottom: 1px solid grey;
+  box-sizing: border-box;
+}
+
+.shangpin1_header_left {
+  width: 134px;
+  height: 69px;
+  float: left;
+  text-align: center;
+  line-height: 69px;
+  background-image: url(../img/images/21.png);
+  background-repeat: no-repeat;
+  background-position: 0px 20px;
+  font-size: 20px;
+}
+
+.shangpin1_header_right {
+  float: right;
+  font-size: 12px;
+  box-sizing: border-box;
+  margin-top: 34px;
+  position: absolute;
+  top: 0;
+  left: 964px;
+}
+
+.shangpin1_header_right_1 {
+  width: 60px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  float: left;
+  border-top: 1px solid grey;
+  box-sizing: border-box;
+  border-left: 1px solid grey;
+  position: relative;
+}
+.shangpin1_header_right_1:hover {
+  border-right: 1px solid #74be5f;
+  border-left: 1px solid #74be5f;
+  border-top: 2px solid #74be5f;
+  color: #74be5f;
+  box-sizing: border-box;
+}
+.shangpin1_header_right_1:hover .a1 {
+  color: #74be5f;
+}
+.shangpin1_header_right_1:hover .shangpin1_bottom {
+  z-index: 1000;
+  top: -3px;
+}
+.shangpin1_header_right_1:hover .shangpin1_bottom_left1 {
+  position: absolute;
+  bottom: -478px;
+}
+
+.shangpin1_header_right_2 {
+  width: 88px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  float: left;
+  border-top: 1px solid grey;
+  box-sizing: border-box;
+  position: relative;
+}
+.shangpin1_header_right_2:hover {
+  border-right: 1px solid #74be5f;
+  border-left: 1px solid #74be5f;
+  border-top: 2px solid #74be5f;
+  color: #74be5f;
+  box-sizing: border-box;
+}
+.shangpin1_header_right_2:hover .a1 {
+  color: #74be5f;
+}
+.shangpin1_header_right_2:hover .shangpin2 {
+  display: block;
+  top: 32px;
+  right: -91px;
+}
+
+.shangpin1_header_right_3 {
+  width: 88px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  float: left;
+  border-top: 1px solid grey;
+  box-sizing: border-box;
+  border-right: 1px solid grey;
+}
+.shangpin1_header_right_3:hover {
+  border-right: 1px solid #74be5f;
+  border-left: 1px solid #74be5f;
+  border-top: 2px solid #74be5f;
+  color: #74be5f;
+  box-sizing: border-box;
+}
+.shangpin1_header_right_3:hover .a1 {
+  color: #74be5f;
+}
+.shangpin1_header_right_3:hover .shangpin3 {
+  display: block;
+  top: 34px;
+}
+
+.shangpin1_bottom {
+  height: 477px;
+  width: 1200px;
+  float: left;
+  display: flex;
+  width: 1210px;
+  position: absolute;
+  top: -2px;
+  left: -963px;
+  position: relative;
+}
+
+.shangpin1_bottom_left {
+  position: relative;
+  position: relative;
+}
+
+.shangpin1_bottom_left_img {
+  float: left;
+}
+
+.shangpin1_bottom_left1 {
+  width: 330px;
+  height: 178px;
+  background-color: #daf8fd;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.shangpin1_bottom_left1_1 {
+  width: 330px;
+  height: 63px;
+  text-align: center;
+  line-height: 63px;
+}
+
+.shangpin1_bottom_left1_2 {
+  width: 330px;
+  height: 115px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+.shangpin1_bottom_left1_2_1 {
+  width: 90px;
+  height: 23px;
+  background-color: white;
+  font-size: 12px;
+  text-align: center;
+  line-height: 23px;
+  border-radius: 10px;
+}
+.shangpin1_bottom_left1_2_1 > a:hover {
+  color: aqua;
+}
+
+.shangpin1_bottom_right {
+  width: 880px;
+  height: 477px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid grey;
+  box-sizing: border-box;
+}
+
+.shangpin1_bottom_right_1 {
+  width: 200px;
+  height: 238px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 15px;
+}
+.shangpin1_bottom_right_1 > img {
+  height: 187px;
+}
+.shangpin1_bottom_right_1 > img:hover {
+  transform: translateY(-1px);
+  transition: all 1s;
+}
+.shangpin1_bottom_right_1 > div > a {
+  color: black;
+}
+
+.shangpin1_bottom_right_1_price {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.a1 {
+  color: black;
+}
+
+.a2:hover {
+  color: aqua;
+}
+
+.shangpin1_bottom2 {
+  width: 1200px;
+  height: 82px;
+  position: absolute;
+  top: 546px;
+  left: -1;
+}
+
+.shangpin1_bottom2_1 {
+  width: 12.5%;
+  height: 82px;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  text-align: center;
+  float: left;
+}
+.shangpin1_bottom2_1 > a > img {
+  margin-top: 18px;
+}
+
+.shangpin1_center {
+  width: 1200px;
+  height: 477px;
+  margin: 0 auto;
+}
+
+.shangpin1_bottom_left_right2 {
+  position: relative;
+  height: 477px;
+  width: 330px;
+  float: left;
+}
+
+.shangpin1_bottom_left1_right2_1 {
+  width: 330px;
+  height: 178px;
+  background-color: #daf8fd;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  bottom: 0px;
+  opacity: 0.8;
+}
+
+.shangpin2 {
+  width: 1200px;
+  height: 477px;
+  position: absolute;
+  top: 33px;
+  right: -88px;
+  margin: 0 auto;
+  display: none;
+}
+
+.shangpin2_right {
+  width: 870px;
+  height: 477px;
+  float: right;
+}
+
+.shangpin2_right1 {
+  width: 389px;
+  height: 299px;
+  background-image: url(../img/images/26.png);
+  float: left;
+  overflow: hidden;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+.shangpin2_right1:hover {
+  transform: translateX(-3px);
+  transition: all 1s;
+}
+
+.shangpin2_right1_text1 {
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+.shangpin2_right1_text1 > a {
+  color: black;
+}
+
+.shangpin2_right1_text2 {
+  font-size: 12px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+.shangpin2_right1_text2 > a {
+  color: #ff4400;
+}
+
+.shangpin2_ringht_header2 {
+  width: 479px;
+  height: 299px;
+  float: left;
+}
+
+.shangpin2_right2 {
+  width: 479px;
+  height: 149px;
+  background-image: url(../img/images/27.png);
+  overflow: hidden;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+.shangpin2_right2:hover {
+  transform: translateX(-3px);
+  transition: all 1s;
+}
+
+.shangpin2_right2_text1 {
+  font-size: 14px;
+  margin-left: 67px;
+  margin-top: 29px;
+  text-align: left;
+}
+.shangpin2_right2_text1 > a {
+  color: black;
+}
+
+.shangpin2_right2_text2 {
+  font-size: 12px;
+  text-align: left;
+  margin-left: 67px;
+  margin-top: -5px;
+}
+.shangpin2_right2_text2 > a {
+  color: #ff4400;
+}
+
+.shangpin2_right_bottom {
+  height: 180px;
+  width: 870px;
+  display: flex;
+}
+
+.shangpin2_right3 {
+  width: 289px;
+  height: 180px;
+  background-image: url(../img/images/29.png);
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  position: relative;
+}
+.shangpin2_right3:hover {
+  transform: translateX(-3px);
+  transition: all 1s;
+}
+
+.shangpin2_right3_text1 {
+  font-size: 14px;
+  margin-left: 26px;
+  margin-top: 11px;
+  text-align: left;
+}
+.shangpin2_right3_text1 > a {
+  color: black;
+}
+
+.shangpin2_right3_text2 {
+  font-size: 12px;
+  text-align: left;
+  margin-left: 26px;
+  margin-top: -5px;
+}
+.shangpin2_right3_text2 > a {
+  color: #ff4400;
+}
+
+.shangpin3_right3 {
+  width: 289px;
+  height: 180px;
+  background-image: url(../img/images/30.png);
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  position: relative;
+}
+.shangpin3_right3:hover {
+  transform: translateX(-3px);
+  transition: all 1s;
+}
+
+.shangpin1_right3 {
+  width: 289px;
+  height: 180px;
+  background-image: url(../img/images/32.png);
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  position: relative;
+}
+.shangpin1_right3:hover {
+  transform: translateX(-3px);
+  transition: all 1s;
+}
+
+.qiu {
+  width: 25px;
+  height: 25px;
+  border: 1px #74be5f solid;
+  background-color: #74be5f;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 40px;
+  left: 35px;
+}
+
+.qiu2 {
+  width: 20px;
+  height: 20px;
+  border: 1px #74be5f solid;
+  background-color: #74be5f;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 72px;
+  left: 78px;
+}
+
+.qiu3 {
+  width: 15px;
+  height: 15px;
+  border: 1px #74be5f solid;
+  background-color: #74be5f;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 29px;
+  left: 98px;
+}
+
+.shangpin3 {
+  width: 1200px;
+  height: 477px;
+  position: absolute;
+  top: 35px;
+  right: -2px;
+  margin: 0 auto;
+  display: none;
+}
+
+.shangpin1_right {
+  width: 870px;
+  height: 477px;
+  float: right;
+  position: absolute;
+  left: 330px;
+}
+
+.ul_li1 {
+  list-style: none;
+}
+
+#box {
+  width: 710px;
+  height: 360px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.lunbobox {
+  width: 100%;
+  height: 360px;
+}
+
+#top {
+  position: relative;
+}
+#top li {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.lunboa > img {
+  width: 710px;
+  height: 360px;
+}
+
+#left {
+  position: absolute;
+  width: 200px;
+  top: 0;
+  left: 0;
+  height: 320px;
+  z-index: 1000;
+}
+
+#right {
+  position: absolute;
+  width: 200px;
+  height: 320px;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+#btn_l {
+  position: absolute;
+  background: url(../img/btn.gif) no-repeat;
+  height: 60px;
+  width: 60px;
+  left: 10px;
+  top: 130px;
+  z-index: 1001;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+#btn_r {
+  position: absolute;
+  background: url(../img/btn.gif) no-repeat 0 -60px;
+  height: 60px;
+  width: 60px;
+  right: 10px;
+  top: 130px;
+  z-index: 1001;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+#bottom {
+  position: relative;
+}
+
+#small_ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#small_ul li {
+  float: left;
+}
+#small_ul img {
+  height: 90px;
+  width: 120px;
+  padding: 6px;
+}
+#small_ul > li {
+  list-style: none;
+}
+
+.lunboright {
+  width: 201px;
+  height: 360px;
+  position: absolute;
+  top: 0;
+  right: 44px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.lunboright_1:hover {
+  transform: translateX(-5px);
+  transition: all 2s;
+}
+
+.lunboright_2:hover {
+  transform: translateX(-5px);
+  transition: all 2s;
+}
+
+.lunboright_3:hover {
+  transform: translateX(-5px);
+  transition: all 2s;
+}

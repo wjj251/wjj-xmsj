@@ -1,0 +1,378 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.a {
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  background-color: rgb(245, 245, 245);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.a #center {
+  width: 1200px;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.a #center .left {
+  float: left;
+}
+.a #center .left span {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.a #center .left span i {
+  margin-right: 5px;
+}
+.a #center .right {
+  float: right;
+}
+.a #center .right span {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.a #center .right span i {
+  margin-right: 5px;
+}
+
+.ab {
+  height: 25px;
+}
+
+.b .e-chong {
+  width: 1200px;
+  height: 140px;
+  margin: 0 auto;
+}
+.b .e-chong .e-left {
+  float: left;
+}
+.b .e-chong .e-left span:nth-child(1) > img {
+  margin-top: 20px;
+  float: left;
+}
+.b .e-chong .e-left div {
+  float: left;
+  font-size: 22px;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+.b .e-chong .e-right {
+  float: right;
+}
+.b .e-chong .e-right input {
+  width: 330px;
+  height: 34px;
+  margin-top: 40px;
+  outline: none;
+  border: 2px solid;
+  border-color: rgb(116, 190, 95);
+  float: right;
+}
+.b .e-chong .e-right div {
+  width: 50px;
+  height: 34px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  background-color: rgb(116, 190, 95);
+  float: right;
+  margin-top: 40px;
+  margin-right: -328px;
+  cursor: pointer;
+}
+.b .e-chong .e-card {
+  width: 1200px;
+  height: 40px;
+  margin: 0 auto;
+  float: left;
+  margin-top: 20px;
+  border-bottom: 2px solid red;
+}
+.b .e-chong .e-card .ec-left {
+  float: left;
+}
+.b .e-chong .e-card .ec-left li {
+  float: left;
+  height: 30px;
+  line-height: 10px;
+  padding: 10px 30px;
+  border-right: 1px solid #ccc;
+}
+.b .e-chong .e-card .ec-right {
+  float: right;
+}
+.b .e-chong .e-card .ec-right select {
+  width: 90px;
+  height: 30px;
+  font-size: 12px;
+}
+.b .e-two {
+  width: 1200px;
+  margin: 0 auto;
+  display: none;
+}
+.b .e-two .dobol {
+  margin-top: 35px;
+  margin-left: 10px;
+  height: 20px;
+  font-size: 12px;
+}
+.b .e-two .dobol div:nth-child(1) {
+  float: left;
+  margin-top: 7px;
+}
+.b .e-two .dobol div:nth-child(2) {
+  float: left;
+  width: 85px;
+  height: 25px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 3px;
+  background-color: rgb(106, 205, 52);
+  color: white;
+  margin-left: 10px;
+}
+.b .e-two .dobol div:nth-child(3) {
+  float: left;
+  width: 55px;
+  height: 25px;
+  background-color: rgb(255, 96, 0);
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  margin-left: 50px;
+  margin-right: 3px;
+}
+.b .e-two .dobol div:nth-child(4) {
+  float: left;
+  width: 65px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+.b .e-two .dobol div:nth-child(5) {
+  float: left;
+}
+.b .e-two .huan {
+  margin-top: 20px;
+  margin-left: 25px;
+  height: 20px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.b .e-two .huan div:nth-child(1) {
+  float: left;
+  width: 35px;
+  height: 20px;
+  background-color: rgb(255, 87, 87);
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+.b .e-two .huan div:nth-child(2) {
+  float: left;
+  margin-top: 2px;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+.b .e-two .huan div:nth-child(3) {
+  float: left;
+  color: rgb(255, 185, 54);
+  margin-top: 2px;
+}
+.b .e-two .page {
+  width: 1200px;
+  height: 155px;
+  float: left;
+  background-color: rgb(252, 252, 252);
+  border: 1px solid #ccc;
+}
+.b .e-two .page div {
+  float: left;
+}
+.b .e-two .page .tu-a {
+  margin: 60px 32px;
+}
+.b .e-two .page .tu-w img {
+  width: 90px;
+  border: 1px solid #ccc;
+  margin: 12px 10px;
+}
+.b .e-two .page .tu-z {
+  font-size: 12px;
+  margin-top: 125px;
+  margin-left: 48px;
+  margin-right: 182px;
+}
+.b .e-two .page .tu-n {
+  width: 80px;
+  height: 25px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 25px;
+  font-size: 12px;
+  margin: 64px auto;
+}
+.b .e-two .page .tu-n .tn-1 {
+  width: 15px;
+  border-right: 1px solid #ccc;
+}
+.b .e-two .page .tu-n .tn-2 {
+  width: 49px;
+  height: 24px;
+  margin-left: -14px;
+  text-align: center;
+}
+.b .e-two .page .tu-n .tn-3 {
+  width: 15px;
+  border-left: 1px solid #ccc;
+  margin-left: 64px;
+  margin-top: -26px;
+}
+.b .e-two .page .tu-j {
+  font-weight: bold;
+  margin: 68px 130px;
+  font-size: 13px;
+}
+.b .e-two .page .tu-d {
+  color: rgb(136, 136, 136);
+  font-size: 12px;
+  margin-left: 28px;
+  margin-top: 66px;
+}
+.b .e-two .page .yh {
+  font-size: 12px;
+  color: rgb(78, 78, 78);
+  margin-top: 94px;
+  margin-left: -51px;
+}
+.b .e-two .money {
+  margin-top: 28px;
+  font-size: 12px;
+  float: left;
+  width: 1200px;
+  height: 58px;
+  line-height: 58px;
+  background-color: rgb(245, 245, 245);
+}
+.b .e-two .money input {
+  margin-left: 10px;
+  margin-top: 24px;
+  float: left;
+}
+.b .e-two .money div {
+  float: left;
+}
+.b .e-two .money div:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.b .e-two .money div:nth-child(3) {
+  margin-right: 8px;
+}
+.b .e-two .money div:nth-child(4) {
+  margin-right: 400px;
+}
+.b .e-two .money div:nth-child(6) {
+  font-size: 18px;
+  color: rgb(230, 18, 18);
+  font-weight: bold;
+}
+.b .e-two .green {
+  width: 208px;
+  height: 60px;
+  line-height: 60px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(116, 190, 95);
+  margin-right: -1px;
+  margin-top: -60px;
+  float: right;
+}
+.b .e-two .buy input {
+  width: 75px;
+  height: 25px;
+  margin-top: 20px;
+}
+
+.off, .off1 {
+  color: red;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.del, .tn-1, .tn-3 {
+  cursor: pointer;
+}
+
+.carr {
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+.center {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+#s {
+  float: left;
+  margin-top: 115px;
+  font-size: 100px;
+}
+
+.cc {
+  margin-top: 140px;
+  float: left;
+  font-size: 30px;
+  margin-left: 15px;
+  color: rgb(159, 159, 159);
+}
+
+.bb {
+  margin-top: 20px;
+  float: left;
+  color: white;
+  text-align: center;
+}
+.bb div:nth-child(1) {
+  float: left;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgb(98, 176, 82);
+  border-radius: 3px;
+  margin-left: 15px;
+  margin-right: 25px;
+}
+.bb div:nth-child(2) {
+  float: left;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgb(98, 176, 82);
+  border-radius: 3px;
+}
